@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+h3{
+    font-family: "Raleway SemiBold"
+}
+.title{
+    color: white;
+    font-family: "Raleway Black";
+    margin: 1% 1% 1% 3%;
+    font-size: 7vh;
+}
+.status{
+    width: 25%;
+    height: 80%;
+    background-color: darkgray;
+    border-radius: 1vh;
+    margin: 1% 3% 3% 3%;
+    display: inline-block;
+    vertical-align: top
+}
+.game_container{
+    position: relative;
+    width: 65%;
+    height: 80%;
+    margin: 1% 3% 3% 0;
+    display: inline-block;
+    vertical-align: top
+}
+img{
+    width: 30%;
+}
+.game_area{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+    background-image: url("img/background.jpg");
+}
+.player_mode_select{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+    position: absolute;
+    text-align: center;
+}
+.player_mode_select>h1{
+    font-family: "Raleway SemiBold";
+    font-size: 5vh;
+    margin-top: 15%;
+}
+.player_mode_select>h3{
+    font-family: "Raleway SemiBold";
+    margin-top: 5%;
+}
+.number_of_decks{
+    display: inline-block;
+    width: 35%;
+    margin: 1% 3% 0 5%;
+    font-family: "Raleway SemiBold"
+}
+.number_of_players{
+    display: inline-block;
+    width: 35%;
+    margin: 1% 3% 0 5%;
+    font-family: "Raleway SemiBold"
+}
+label{
+    margin: 2%;
+}
+span{
+    font-size: 2.5vh;
+}
+.play_button{
+    width: 20%;
+    height: 10%;
+    margin-top: 5%;
+    font-family: "Raleway SemiBold";
+    font-size: 4vh;
+}
+.dealer{
+    width:100%;
+}
+img{
+    width: 10%;
+}
